@@ -1,5 +1,9 @@
 <template>
-    <p>Test</p>
+    <div class="dashboard">
+        <h1 class="subheading grey--text">Dashboard</h1>
+
+        <v-container class="my-3"> </v-container>
+    </div>
 </template>
 
 <script>
