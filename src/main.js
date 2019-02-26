@@ -1,4 +1,4 @@
-import 'font-awesome/css/font-awesome.min.css'
+import '@fortawesome/fontawesome-free/css/all.css'
 import 'material-icons-fonts/index.css'
 import 'roboto-fontface-woff/css/roboto/roboto-fontface.css'
 import 'vuetify/dist/vuetify.min.css'
@@ -10,7 +10,9 @@ import Vue from 'vue'
 Vue.config.productionTip = false
 Vue.config.devtools = false
 
-Vue.use(Vuetify)
+Vue.use(Vuetify, {
+    iconfont: 'fa',
+})
 
 Vue.prototype.log = console.log.bind(console)
 
